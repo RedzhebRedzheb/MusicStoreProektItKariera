@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\uimusic\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|solutionrelative:uimusic\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\uimusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|solutionrelative:uimusic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\uimusic\\areas\\identity\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|solutionrelative:uimusic\\areas\\identity\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\uimusic\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|solutionrelative:uimusic\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\uimusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DA1E52A-3F9A-403E-828B-A91D08542F95}|UIMusic\\UIMusic.csproj|solutionrelative:uimusic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\my\\\u043A\u0443\u0440\u0441\u043E\u0432\u043F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00F3\u00AB\u00F1\u00AC\u00F412\u00BC\u00AB\u00F1\u00F2\u00BD\\musicstore\\musicstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FF32320-23E9-4535-B44D-8B7080830D7E}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\musicstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "MusicStore\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T18:43:21.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contexts.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Contexts.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Contexts.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Contexts.cs",
+              "RelativeToolTip": "MusicStore\\Contexts.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:11:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Startup.cs",
+              "RelativeDocumentMoniker": "UIMusic\\Startup.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Startup.cs",
+              "RelativeToolTip": "UIMusic\\Startup.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T18:34:42.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Program.cs",
+              "RelativeDocumentMoniker": "UIMusic\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Program.cs",
+              "RelativeToolTip": "UIMusic\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T18:33:33.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Supplier.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:09:13.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Review.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:11:06.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Product.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:08:02.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\OrderItem.cs",
+              "RelativeToolTip": "MusicStore\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:10:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Order.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:10:21.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Category.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T10:38:13.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\Models\\Brand.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T16:06:20.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Areas\\Identity\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "UIMusic\\Areas\\Identity\\Pages\\Component.razor",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Areas\\Identity\\Pages\\Component.razor",
+              "RelativeToolTip": "UIMusic\\Areas\\Identity\\Pages\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:30:55.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "UIMusic\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "UIMusic\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:30:36.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\appsettings.json",
+              "RelativeDocumentMoniker": "UIMusic\\appsettings.json",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\UIMusic\\appsettings.json",
+              "RelativeToolTip": "UIMusic\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T18:37:51.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MusicStore.csproj",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\MusicStore.csproj",
+              "RelativeDocumentMoniker": "MusicStore\\MusicStore.csproj",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\my\\\u041A\u0443\u0440\u0441\u043E\u0432\u041F\u0440\u043E\u0435\u043A\u0442\\\u00BB\u00D3\u00AB\u00D1\u00AC\u00D412\u00BC\u00AB\u00F1\u00D2\u00BD\\MusicStore\\MusicStore.csproj",
+              "RelativeToolTip": "MusicStore\\MusicStore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-08T10:35:22.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
