@@ -1,0 +1,30 @@
+﻿@model MusicStore.Models.Order
+
+@{
+    ViewData["Title"] = "Create Order";
+}
+
+<h2>Create Order</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label>Select Products</label>
+        <select name="productIds" class="form-control" multiple>
+            @foreach (var product in ViewBag.Products)
+            {
+                <option value="@product.Id">@product.Name - @product.Price.ToString("C")</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Quantities</label>
+        <input type="text" name="quantities" class="form-control" placeholder="Enter quantities separated by commas" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Order</button>
+</form>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

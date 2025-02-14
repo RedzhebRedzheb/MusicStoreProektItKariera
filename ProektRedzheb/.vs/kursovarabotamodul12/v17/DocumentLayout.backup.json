@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C35FC029-F098-4A2F-B00C-4A67C030DEF0}|C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35FC029-F098-4A2F-B00C-4A67C030DEF0}|C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35FC029-F098-4A2F-B00C-4A67C030DEF0}|C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\ui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35FC029-F098-4A2F-B00C-4A67C030DEF0}|C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI|solutionrelative:ui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\migrations\\20250214173320_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\migrations\\20250214173320_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\desktop\\zaedno\\kursovarabotamodul12\\musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:39:22.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI\\Startup.cs",
+              "RelativeDocumentMoniker": "UI\\Startup.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\UI\\Startup.cs",
+              "RelativeToolTip": "UI\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:39:21.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250214173320_initials.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Migrations\\20250214173320_initials.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Migrations\\20250214173320_initials.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Migrations\\20250214173320_initials.cs",
+              "RelativeToolTip": "MusicStore\\Migrations\\20250214173320_initials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:33:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Order.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:22:02.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contexts.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Contexts.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Contexts.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Contexts.cs",
+              "RelativeToolTip": "MusicStore\\Contexts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:04:18.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Supplier.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:29:51.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Product.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:04:18.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Zaedno\\kursovarabotamodul12\\MusicStore\\Models\\Brand.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T20:24:44.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
