@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="about-page">
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5 text-light mb-5">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated fadeIn">🎼 Welcome to ToniStore</h1>
+            <p class="lead animated fadeIn delay-1s">Where Passion Meets Music</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Story Section -->
+        <section class="story-section mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Our Story</h2>
+                    <p class="lead">
+                        Founded in 2025, Music Store has grown from a small local shop to a premier destination for musicians nationwide.
+                        What started as a passion project between friends has blossomed into a community hub for music lovers.
+                    </p>
+                    <p class="lead">
+                        ToniStore was created by a passionate team: Anton, Hasan and Redzheb. They envisioned a place where musicians of all levels could find high-quality instruments, expert advice, and a true connection to the music community. Today, that vision is alive and thriving at ToniStore!
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/store-interior.jpg" alt="Our Store" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission-section bg-light p-5 rounded mb-5 shadow-sm">
+            <h2 class="text-center mb-4 animated fadeInUp">🌟 Our Mission</h2>
+            <p class="text-center lead animated fadeInUp delay-1s">
+                To empower musicians at every level with quality instruments, expert advice, and exceptional service.
+            </p>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <div class="h1 mb-3">🎸</div>
+                    <h4>Quality Gear</h4>
+                    <p>Curated selection of premium instruments</p>
+                </div>
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <div class="h1 mb-3">👨🏫</div>
+                    <h4>Expert Advice</h4>
+                    <p>Guidance from musician-trained staff</p>
+                </div>
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <div class="h1 mb-3">❤️</div>
+                    <h4>Passion Driven</h4>
+                    <p>By musicians, for musicians</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<style>
+    .about-page {
+        line-height: 1.8;
+        font-size: 1.1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .hero-section {
+        background: linear-gradient(to right, #2c3e50, #34495e); /* Dark gradient for better contrast */
+        background-size: cover;
+        background-position: center;
+        padding: 80px 0;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+    .story-section img {
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .mission-section .h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        transition: transform 0.3s ease;
+    }
+
+        .mission-section .h1:hover {
+            transform: scale(1.1);
+        }
+
+    .mission-section h4 {
+        font-weight: 600;
+    }
+
+    .mission-section p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #6c757d;
+    }
+
+    .animated {
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    .fadeIn {
+        animation-name: fadeIn;
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+
+        .fadeInUp.delay-1s {
+            animation-delay: 1s;
+        }
+</style>

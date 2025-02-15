@@ -1,0 +1,68 @@
+﻿@model MusicStore.Models.Product
+
+@{
+    ViewData["Title"] = "Create New Product";
+}
+
+<h1>Create New Product</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Name">Product Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" class="form-control" id="Price" name="Price" required />
+    </div>
+
+    <div class="form-group">
+        <label for="StockQuantity">Stock Quantity</label>
+        <input type="number" class="form-control" id="StockQuantity" name="StockQuantity" required />
+    </div>
+
+    <div class="form-group">
+        <label for="CategoryId">Category</label>
+        <select class="form-control" id="CategoryId" name="CategoryId" required>
+            @foreach (var category in ViewBag.Categories as List<MusicStore.Models.Category>)
+            {
+                <option value="@category.Id">@category.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="BrandId">Brand</label>
+        <select class="form-control" id="BrandId" name="BrandId" required>
+            @foreach (var brand in ViewBag.Brands as List<MusicStore.Models.Brand>)
+            {
+                <option value="@brand.Id">@brand.Name</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="SupplierId">Supplier</label>
+        <select class="form-control" id="SupplierId" name="SupplierId" required>
+            @foreach (var supplier in ViewBag.Suppliers as List<MusicStore.Models.Supplier>)
+            {
+                <option value="@supplier.Id">@supplier.Name</option>
+            }
+        </select>
+    </div>
+
+    <!-- Add Image Upload Field -->
+    <div class="form-group">
+        <label for="ImageUrl">Product Image</label>
+        <input type="file" class="form-control" id="ImageUrl" name="ImageUrl" accept="image/*" />
+    </div>
+
+    <!-- Move Description Field to the Bottom -->
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea class="form-control" id="Description" name="Description" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Create Product</button>
+</form>

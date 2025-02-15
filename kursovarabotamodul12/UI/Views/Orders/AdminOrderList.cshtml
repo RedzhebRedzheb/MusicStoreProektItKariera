@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MusicStore.Models.Order>
+
+<h1>All Orders</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>User</th> <!-- Show the user who placed the order -->
+            <th>Order Date</th>
+            <th>Total Price</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.User?.UserName</td> <!-- Display the username of the user who placed the order -->
+                <td>@order.OrderDate.ToString("MM/dd/yyyy")</td> <!-- Format the order date -->
+                <td>@order.TotalPrice.ToString("C")</td> <!-- Format the total price as currency -->
+                <td>@order.Status</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-info">View Details</a>
+                    <a asp-action="Delete" asp-route-id="@order.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
