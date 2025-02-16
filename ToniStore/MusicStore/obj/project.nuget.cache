@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "12gjfINxD2A=",
+  "dgSpecHash": "dB8+gDYRGyA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\MusicStore\\MusicStore.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\MusicStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

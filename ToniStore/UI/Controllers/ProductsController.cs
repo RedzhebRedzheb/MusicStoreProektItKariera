@@ -18,7 +18,6 @@ namespace MusicStore.Controllers
             _context = context;
         }
 
-        // GET: Products
         [AllowAnonymous]
         public async Task<IActionResult> Index(string searchString, int? categoryId, int? brandId, string sortOrder)
         {
@@ -28,7 +27,6 @@ namespace MusicStore.Controllers
                 .Include(p => p.Supplier)
                 .AsQueryable();
 
-            // Filtering
             if (!string.IsNullOrEmpty(searchString))
             {
                 query = query.Where(p => p.Name.Contains(searchString) ||
@@ -45,7 +43,6 @@ namespace MusicStore.Controllers
                 query = query.Where(p => p.BrandId == brandId);
             }
 
-            // Sorting
             ViewData["CurrentSort"] = sortOrder;
             query = sortOrder switch
             {
@@ -56,7 +53,6 @@ namespace MusicStore.Controllers
                 _ => query.OrderBy(p => p.Name)
             };
 
-            // ViewData for form persistence
             ViewData["CurrentFilter"] = searchString;
             ViewData["CurrentCategory"] = categoryId;
             ViewData["CurrentBrand"] = brandId;
@@ -69,7 +65,6 @@ namespace MusicStore.Controllers
             return View(await query.ToListAsync());
         }
 
-        // GET: Products/Details/5
         [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
@@ -107,7 +102,6 @@ namespace MusicStore.Controllers
                 using var transaction = await _context.Database.BeginTransactionAsync();
                 try
                 {
-                    // Get or create brand
                     var brand = await _context.Brands
                         .FirstOrDefaultAsync(b => b.Name.ToLower() == model.BrandName.Trim().ToLower());
 
@@ -118,7 +112,6 @@ namespace MusicStore.Controllers
                         await _context.SaveChangesAsync();
                     }
 
-                    // Get or create category
                     var category = await _context.Categories
                         .FirstOrDefaultAsync(c => c.Name.ToLower() == model.CategoryName.Trim().ToLower());
 
@@ -129,7 +122,6 @@ namespace MusicStore.Controllers
                         await _context.SaveChangesAsync();
                     }
 
-                    // Create product
                     var product = new Product
                     {
                         Name = model.Name,
@@ -155,7 +147,6 @@ namespace MusicStore.Controllers
                 }
             }
 
-            // Repopulate needed data if validation fails
             ViewBag.Suppliers = new SelectList(_context.Suppliers, "Id", "Name");
             ViewBag.ExistingBrands = _context.Brands.Select(b => b.Name).ToList();
             ViewBag.ExistingCategories = _context.Categories.Select(c => c.Name).ToList();
@@ -169,7 +160,6 @@ namespace MusicStore.Controllers
             ViewBag.Suppliers = new SelectList(_context.Suppliers, "Id", "Name");
         }
 
-        // GET: Products/Edit/5
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -182,7 +172,6 @@ namespace MusicStore.Controllers
             return View(product);
         }
 
-        // POST: Products/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
@@ -208,7 +197,6 @@ namespace MusicStore.Controllers
             return View(product);
         }
 
-        // GET: Products/Delete/5
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -228,7 +216,6 @@ namespace MusicStore.Controllers
             return View(product);
         }
 
-        // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
@@ -255,7 +242,7 @@ namespace MusicStore.Controllers
         {
             if (ModelState.IsValid)
             {
-                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Get the current user's ID
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
                 var review = new Review
                 {
@@ -286,9 +273,8 @@ namespace MusicStore.Controllers
                 return NotFound();
             }
 
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Get the current user's ID
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value; 
 
-            // Allow deletion if the user is the commenter or an admin
             if (review.UserId == userId || User.IsInRole("Admin"))
             {
                 _context.Reviews.Remove(review);

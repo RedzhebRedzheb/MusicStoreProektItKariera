@@ -22,7 +22,6 @@ namespace MusicStore.Controllers
             _userManager = userManager;
         }
 
-        // Shopping Cart Actions
         [Authorize]
         public async Task<IActionResult> Cart()
         {
@@ -107,7 +106,6 @@ namespace MusicStore.Controllers
                 return NotFound();
             }
 
-            // Authorization check
             if (!User.IsInRole("Admin") && order.UserId != User.FindFirstValue(ClaimTypes.NameIdentifier))
             {
                 return Forbid();
@@ -156,7 +154,6 @@ namespace MusicStore.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            // Restore stock
             foreach (var item in order.OrderItems)
             {
                 item.Product.StockQuantity += item.Quantity;
@@ -169,7 +166,6 @@ namespace MusicStore.Controllers
             TempData["SuccessMessage"] = "Order deleted successfully";
             return RedirectToAction(nameof(Index));
         }
-        // Inside your OrdersController class
         [Authorize]
         public async Task<IActionResult> Checkout()
         {
@@ -181,7 +177,6 @@ namespace MusicStore.Controllers
                 return RedirectToAction(nameof(Cart));
             }
 
-            // Convert cart to real order
             cart.Status = "Pending";
             cart.OrderDate = DateTime.UtcNow;
 
@@ -197,27 +192,24 @@ namespace MusicStore.Controllers
 
             if (User.IsInRole("Admin"))
             {
-                // Admin view remains unchanged
                 var adminOrders = await _context.Orders
                     .Include(o => o.User)
                     .Include(o => o.OrderItems)
                         .ThenInclude(oi => oi.Product)
-                    .Where(o => o.Status != "Cart") // Exclude carts
+                    .Where(o => o.Status != "Cart") 
                     .OrderByDescending(o => o.OrderDate)
                     .ToListAsync();
 
                 return View("AdminOrderList", adminOrders);
             }
 
-            // Regular user view
             var userOrders = await _context.Orders
-                .Where(o => o.UserId == userId && o.Status != "Cart") // Include cancelled orders in list
+                .Where(o => o.UserId == userId && o.Status != "Cart") 
                 .Include(o => o.OrderItems)
                     .ThenInclude(oi => oi.Product)
                 .OrderByDescending(o => o.OrderDate)
                 .ToListAsync();
 
-            // Calculate total spending EXCLUDING cancelled orders
             ViewBag.TotalSpending = userOrders
                 .Where(o => o.Status != "Cancelled")
                 .Sum(o => o.TotalPrice);
@@ -252,7 +244,6 @@ namespace MusicStore.Controllers
             var previousStatus = order.Status;
             order.Status = status;
 
-            // Handle stock changes for cancellations
             if (status == "Cancelled" && previousStatus != "Cancelled")
             {
                 foreach (var item in order.OrderItems)
@@ -261,7 +252,6 @@ namespace MusicStore.Controllers
                     _context.Update(item.Product);
                 }
             }
-            // Restore stock if undoing cancellation
             else if (previousStatus == "Cancelled" && status != "Cancelled")
             {
                 foreach (var item in order.OrderItems)
@@ -276,7 +266,6 @@ namespace MusicStore.Controllers
             return RedirectToAction(nameof(Details), new { id });
         }
 
-        // Helper Methods
         private async Task<IdentityUser> GetCurrentUserAsync() =>
             await _userManager.GetUserAsync(User);
 
@@ -336,7 +325,6 @@ namespace MusicStore.Controllers
 
             if (order == null) return NotFound();
 
-            // Restore stock for non-cancelled orders
             if (order.Status != "Cancelled")
             {
                 foreach (var item in order.OrderItems)

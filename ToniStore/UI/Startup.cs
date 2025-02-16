@@ -24,7 +24,6 @@ namespace UI
 
 
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Contexts>(options =>
@@ -40,7 +39,6 @@ namespace UI
             services.AddControllersWithViews();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
         {
             if (env.IsDevelopment())
@@ -62,7 +60,6 @@ namespace UI
             app.UseAuthentication();
             app.UseAuthorization();
 
-            // Ensure roles and admin user are created on app start
             CreateRoles(roleManager, userManager).Wait();
 
             app.UseEndpoints(endpoints =>
@@ -90,7 +87,6 @@ namespace UI
                 }
             }
 
-            // Create Admin user if it doesn't exist
             var adminUser = await userManager.FindByEmailAsync("admin@yourdomain.com");
 
             if (adminUser == null)
@@ -105,7 +101,6 @@ namespace UI
 
                 if (adminResult.Succeeded)
                 {
-                    // Assign the Admin role to the new admin user
                     await userManager.AddToRoleAsync(adminUser, "Admin");
                 }
             }

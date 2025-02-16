@@ -10058,11 +10058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\UI.csproj",
+      "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10083,8 +10083,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\MusicStore\\MusicStore.csproj": {
-              "projectPath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\MusicStore\\MusicStore.csproj"
+            "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\MusicStore.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\MusicStore.csproj"
             }
           }
         }

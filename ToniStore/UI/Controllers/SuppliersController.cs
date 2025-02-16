@@ -57,9 +57,8 @@ namespace MusicStore.Controllers
             if (ModelState.IsValid)
             {
                 _context.Suppliers.Add(supplier);
-                _context.SaveChanges(); // Save supplier first
+                _context.SaveChanges(); 
 
-                // Handle existing products
                 if (SelectedProductIds != null)
                 {
                     foreach (var productId in SelectedProductIds)
@@ -72,7 +71,6 @@ namespace MusicStore.Controllers
                     }
                 }
 
-                // Create new brands
                 var createdBrandIds = new List<int>();
                 if (NewBrandNames != null)
                 {
@@ -85,7 +83,6 @@ namespace MusicStore.Controllers
                     }
                 }
 
-                // Create new categories
                 var createdCategoryIds = new List<int>();
                 if (NewCategoryNames != null)
                 {
@@ -98,7 +95,6 @@ namespace MusicStore.Controllers
                     }
                 }
 
-                // Create new products
                 if (NewProductNames != null)
                 {
                     for (int i = 0; i < NewProductNames.Count; i++)
@@ -109,8 +105,8 @@ namespace MusicStore.Controllers
                             Price = NewProductPrices[i],
                             StockQuantity = NewProductQuantities[i],
                             SupplierId = supplier.Id,
-                            BrandId = SelectedBrandIds[i] > 0 ? SelectedBrandIds[i] : createdBrandIds[i], // Use existing or new brand
-                            CategoryId = SelectedCategoryIds[i] > 0 ? SelectedCategoryIds[i] : createdCategoryIds[i] // Use existing or new category
+                            BrandId = SelectedBrandIds[i] > 0 ? SelectedBrandIds[i] : createdBrandIds[i], 
+                            CategoryId = SelectedCategoryIds[i] > 0 ? SelectedCategoryIds[i] : createdCategoryIds[i] 
                         };
                         _context.Products.Add(newProduct);
                     }

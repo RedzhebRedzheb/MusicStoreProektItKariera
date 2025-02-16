@@ -10,7 +10,6 @@
     <h1 class="my-4">ToniStore</h1>
 
     <div class="row">
-        <!-- Search and Admin Controls -->
         <div class="col-md-8">
             <form asp-action="Index" method="get">
                 <div class="input-group mb-4">
@@ -40,7 +39,6 @@
     </div>
 
     <div class="row">
-        <!-- Filters Sidebar -->
         <div class="col-md-3">
             <div class="card shadow-sm">
                 <div class="card-header bg-primary text-white">
@@ -87,7 +85,6 @@
             </div>
         </div>
 
-        <!-- Products Grid -->
         <div class="col-md-9">
             <div class="row">
                 @foreach (var product in Model)
@@ -159,7 +156,22 @@
         </div>
     </div>
 </div>
+<style>
+    .card-img-overlay .badge-info {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        opacity: 0.9;
+    }
 
+    .product-image {
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+</style>
 <style>
     .product-image {
         height: 200px;

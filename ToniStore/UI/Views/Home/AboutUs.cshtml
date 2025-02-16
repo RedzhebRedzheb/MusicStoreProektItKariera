@@ -8,7 +8,6 @@
 </audio>
 
 <div class="about-page">
-    <!-- Hero Section -->
     <section class="hero-section text-center py-5 text-light mb-5">
         <div class="container">
             <h1 class="display-3 mb-3 animated fadeIn">🎼 Welcome to ToniStore</h1>
@@ -17,7 +16,6 @@
     </section>
 
     <div class="container">
-        <!-- Story Section -->
         <section class="story-section mb-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -36,7 +34,6 @@
             </div>
         </section>
 
-        <!-- Mission Section -->
         <section class="mission-section bg-light p-5 rounded mb-5 shadow-sm">
             <h2 class="text-center mb-4 animated fadeInUp">🌟 Our Mission</h2>
             <p class="text-center lead animated fadeInUp delay-1s">
@@ -62,7 +59,6 @@
         </section>
     </div>
 
-    <!-- Music Control -->
     <div class="music-controls">
         <button class="btn btn-dark btn-sm rounded-circle" onclick="toggleMusic()">
             <i class="fas fa-play" id="playIcon"></i>
@@ -144,7 +140,6 @@
             animation-delay: 1s;
         }
 
-    /* Music Controls */
     .music-controls {
         position: fixed;
         bottom: 20px;
@@ -189,7 +184,6 @@
     const audio = document.getElementById('backgroundMusic');
     let isPlaying = false;
 
-    // Try to autoplay when page loads
     window.addEventListener('load', () => {
         audio.volume = 0.5;
         audio.play()
@@ -198,7 +192,6 @@
                 document.getElementById('playIcon').className = 'fas fa-pause';
             })
             .catch(error => {
-                // Autoplay blocked, show notification
                 const controls = document.querySelector('.music-controls');
                 controls.style.display = 'flex';
                 controls.innerHTML = `
@@ -245,7 +238,6 @@
         `;
     }
 
-    // Enable audio after any user interaction
     document.addEventListener('click', () => {
         audio.muted = false;
     }, { once: true });

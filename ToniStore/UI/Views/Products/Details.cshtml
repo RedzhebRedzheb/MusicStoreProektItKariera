@@ -80,7 +80,6 @@
                 <p>Please <a href="/Account/Login">login</a> to add a review.</p>
             }
 
-            <!-- Display Reviews -->
             @if (Model.Reviews.Any())
             {
                 foreach (var review in Model.Reviews)
@@ -98,7 +97,6 @@
                             </div>
                             <p class="card-text">@review.Comment</p>
 
-                            <!-- Delete Review Button (for commenter or admin) -->
                             @if (review.UserId == User.FindFirst(ClaimTypes.NameIdentifier)?.Value || User.IsInRole("Admin"))
                             {
                                 <form asp-action="DeleteReview" method="post" class="mt-2">

@@ -1,22 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\",
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\viewcomponents\\cartitemviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\viewcomponents\\cartitemviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\suppliers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\suppliers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\suppliers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\suppliers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\suppliers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\suppliers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\suppliers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\userorderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\userorderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\orders\\adminorderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\adminorderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\ui\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|c:\\users\\acer\\documents\\github\\musicstoreproektitkariera\\tonistore\\musicstore\\migrations\\20250215171139_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A78068B-A72E-4898-97D3-4D357373BE9D}|MusicStore\\MusicStore.csproj|solutionrelative:musicstore\\migrations\\20250215171139_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +146,431 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "UI\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAwwLUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:31:23.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "UI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAcwBMBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:50.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "UI\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAA+wEcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:20.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:18.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Category.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:11.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Order.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:11.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\OrderItem.cs",
+              "RelativeToolTip": "MusicStore\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:10.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Product.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:09.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "MusicStore\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:09.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Review.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:08.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Supplier.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:07.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Models\\Brand.cs",
+              "RelativeToolTip": "MusicStore\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:05:06.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartItemViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\ViewComponents\\CartItemViewComponent.cs",
+              "RelativeDocumentMoniker": "MusicStore\\ViewComponents\\CartItemViewComponent.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\ViewComponents\\CartItemViewComponent.cs",
+              "RelativeToolTip": "MusicStore\\ViewComponents\\CartItemViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:06.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Contexts.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Contexts.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Contexts.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Contexts.cs",
+              "RelativeToolTip": "MusicStore\\Contexts.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:30:04.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Startup.cs",
+              "RelativeDocumentMoniker": "UI\\Startup.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Startup.cs",
+              "RelativeToolTip": "UI\\Startup.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:29:53.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Suppliers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Suppliers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:50.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Suppliers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Suppliers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:49.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Details.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Suppliers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Details.cshtml",
+              "RelativeToolTip": "UI\\Views\\Suppliers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:48.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Suppliers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Suppliers\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:47.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Create.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Suppliers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Suppliers\\Create.cshtml",
+              "RelativeToolTip": "UI\\Views\\Suppliers\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:45.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserOrderList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\UserOrderList.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\UserOrderList.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\UserOrderList.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\UserOrderList.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:29:00.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\OrderDetails.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\OrderDetails.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:55.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:54.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:53.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:41:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAADIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:44:22.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:44:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminOrderList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\AdminOrderList.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\AdminOrderList.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\AdminOrderList.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\AdminOrderList.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:49.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "UI\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:34.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "UI\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:28.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "UI\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:28:23.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T07:18:35.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Orders\\Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Cart.cshtml",
               "RelativeDocumentMoniker": "UI\\Views\\Orders\\Cart.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Orders\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\UI\\Views\\Orders\\Cart.cshtml",
               "RelativeToolTip": "UI\\Views\\Orders\\Cart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -43,42 +579,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T23:44:01.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\AboutUs.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\AboutUs.cshtml",
-              "ViewState": "AgIAALsAAAAAAAAAAAAgwMoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T23:41:15.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T23:44:22.151Z",
-              "EditorCaption": ""
+              "DocumentIndex": 33,
+              "Title": "20250215171139_Initials.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Migrations\\20250215171139_Initials.cs",
+              "RelativeDocumentMoniker": "MusicStore\\Migrations\\20250215171139_Initials.cs",
+              "ToolTip": "C:\\Users\\Acer\\Documents\\GitHub\\MusicStoreProektItKariera\\ToniStore\\MusicStore\\Migrations\\20250215171139_Initials.cs",
+              "RelativeToolTip": "MusicStore\\Migrations\\20250215171139_Initials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:05:00.533Z"
             }
           ]
         }

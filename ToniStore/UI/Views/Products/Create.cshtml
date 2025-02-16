@@ -14,14 +14,12 @@
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                <!-- Product Name -->
                 <div class="form-group">
                     <label asp-for="Name" class="control-label"></label>
                     <input asp-for="Name" class="form-control" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
 
-                <!-- Brand Input with Autocomplete -->
                 <div class="form-group">
                     <label asp-for="BrandName" class="control-label"></label>
                     <input asp-for="BrandName" class="form-control" list="brandList" />
@@ -34,7 +32,6 @@
                     <span asp-validation-for="BrandName" class="text-danger"></span>
                 </div>
 
-                <!-- Category Input with Autocomplete -->
                 <div class="form-group">
                     <label asp-for="CategoryName" class="control-label"></label>
                     <input asp-for="CategoryName" class="form-control" list="categoryList" />
@@ -47,7 +44,6 @@
                     <span asp-validation-for="CategoryName" class="text-danger"></span>
                 </div>
 
-                <!-- Supplier Dropdown -->
                 <div class="form-group">
                     <label asp-for="SupplierId" class="control-label"></label>
                     <select asp-for="SupplierId" class="form-control"
@@ -57,28 +53,24 @@
                     <span asp-validation-for="SupplierId" class="text-danger"></span>
                 </div>
 
-                <!-- Price -->
                 <div class="form-group">
                     <label asp-for="Price" class="control-label"></label>
                     <input asp-for="Price" class="form-control" />
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
 
-                <!-- Stock Quantity -->
                 <div class="form-group">
                     <label asp-for="StockQuantity" class="control-label"></label>
                     <input asp-for="StockQuantity" class="form-control" />
                     <span asp-validation-for="StockQuantity" class="text-danger"></span>
                 </div>
 
-                <!-- Description -->
                 <div class="form-group">
                     <label asp-for="Description" class="control-label"></label>
                     <textarea asp-for="Description" class="form-control" rows="4"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
-                <!-- Image URL -->
                 <div class="form-group">
                     <label asp-for="ImageUrl" class="control-label"></label>
                     <input asp-for="ImageUrl" class="form-control" />
