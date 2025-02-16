@@ -1,0 +1,157 @@
+﻿@using MusicStore.Models
+@model Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<div class="container">
+    @if (Model.Status == "Cart")
+    {
+        <div class="alert alert-info">
+            <h4>🛒 Shopping Cart</h4>
+            <p class="mb-0">This is your current shopping cart session</p>
+        </div>
+    }
+    else
+    {
+        <h1>Order #@Model.Id</h1>
+    }
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h4>@(Model.Status == "Cart" ? "Cart Summary" : "Order Information")</h4>
+            <dl class="row">
+                <dt class="col-sm-4">@(Model.Status == "Cart" ? "Cart Created:" : "Order Date:")</dt>
+                <dd class="col-sm-8">@Model.OrderDate.ToString("f")</dd>
+
+                <dt class="col-sm-4">Status:</dt>
+                <dd class="col-sm-8">
+                    <span class="badge badge-@GetStatusBadge(Model.Status)">@Model.Status</span>
+                </dd>
+
+                <dt class="col-sm-4">Total Amount:</dt>
+                <dd class="col-sm-8">@Model.TotalPrice.ToString("C")</dd>
+
+                @if (User.IsInRole("Admin") && Model.Status != "Cart")
+                {
+                    <dt class="col-sm-4">Customer:</dt>
+                    <dd class="col-sm-8">@Model.User.Email</dd>
+                }
+            </dl>
+        </div>
+    </div>
+
+    <h4>@(Model.Status == "Cart" ? "Cart Items" : "Order Items")</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                @if (Model.Status == "Cart")
+                {
+                    <th></th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.UnitPrice.ToString("C")</td>
+                    <td>@item.Quantity</td>
+                    <td>@((item.UnitPrice * item.Quantity).ToString("C"))</td>
+                    @if (Model.Status == "Cart")
+                    {
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="productId" value="@item.ProductId" />
+                                <button type="submit" class="btn btn-sm btn-danger">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </form>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (Model.Status == "Cart")
+    {
+        <div class="text-right">
+            <a asp-controller="Products" asp-action="Index" class="btn btn-outline-secondary">
+                Continue Shopping
+            </a>
+            <a asp-action="Checkout" class="btn btn-primary">
+                Proceed to Checkout
+            </a>
+        </div>
+    }
+    else
+    {
+        @if (Model.Status == "Pending")
+        {
+            <div class="card border-warning mt-4">
+                <div class="card-header bg-warning text-dark">
+                    Order Actions
+                </div>
+                <div class="card-body">
+                    <a asp-action="Delete" asp-route-id="@Model.Id"
+                       class="btn btn-danger">
+                        <i class="fas fa-trash"></i> Cancel Order
+                    </a>
+                    <small class="text-muted d-block mt-2">
+                        You can cancel this order until it enters processing
+                    </small>
+                </div>
+            </div>
+        }
+
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="card border-primary mt-4">
+                <div class="card-header bg-primary text-white">
+                    Admin Controls
+                </div>
+                <div class="card-body">
+                    <form asp-action="UpdateStatus" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <div class="form-group">
+                            <label>Order Status:</label>
+                            <select name="status" class="form-control">
+                                <option value="Pending" selected="@(Model.Status == "Pending")">Pending</option>
+                                <option value="Processing" selected="@(Model.Status == "Processing")">Processing</option>
+                                <option value="Shipped" selected="@(Model.Status == "Shipped")">Shipped</option>
+                                <option value="Delivered" selected="@(Model.Status == "Delivered")">Delivered</option>
+                                <option value="Cancelled" selected="@(Model.Status == "Cancelled")">Cancelled</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">
+                            Update Status
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
+
+        <a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+    }
+</div>
+
+@functions {
+    string GetStatusBadge(string status) => status switch
+    {
+        "Cart" => "secondary",
+        "Pending" => "warning",
+        "Processing" => "primary",
+        "Shipped" => "success",
+        "Delivered" => "dark",
+        "Cancelled" => "danger",
+        _ => "secondary"
+    };
+}

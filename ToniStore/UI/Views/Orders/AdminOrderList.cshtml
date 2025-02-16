@@ -1,0 +1,103 @@
+﻿@using MusicStore.Models
+@model IEnumerable<Order>
+
+@{
+    ViewData["Title"] = "All Orders";
+}
+
+<div class="container">
+    <h1 class="mb-4">Order Management</h1>
+
+    <table class="table table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Customer</th>
+                <th>Items</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
+                    <td>@order.User.Email</td>
+                    <td>@order.OrderItems.Sum(oi => oi.Quantity)</td>
+                    <td>@order.TotalPrice.ToString("C")</td>
+                    <td>
+                        <span class="badge bg-@GetStatusBadge(order.Status)">
+                            @order.Status
+                        </span>
+                    </td>
+                    <td>
+                        <form asp-action="UpdateStatus" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@order.Id" />
+                            <select name="status" class="form-select form-select-sm status-dropdown"
+                                    data-order-id="@order.Id"
+                                    data-current-status="@order.Status">
+                                <option value="Pending" selected="@(order.Status == "Pending")">Pending</option>
+                                <option value="Processing" selected="@(order.Status == "Processing")">Processing</option>
+                                <option value="Shipped" selected="@(order.Status == "Shipped")">Shipped</option>
+                                <option value="Delivered" selected="@(order.Status == "Delivered")">Delivered</option>
+                                <option value="Cancelled" selected="@(order.Status == "Cancelled")">Cancelled</option>
+                            </select>
+                        </form>
+                        <div class="d-inline-flex gap-1 ms-2">
+                            <a asp-action="Details" asp-route-id="@order.Id"
+                               class="btn btn-sm btn-info">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <form asp-action="AdminDelete" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@order.Id" />
+                                <button type="submit" class="btn btn-sm btn-danger"
+                                        onclick="return confirm('This will permanently delete the order. Continue?')">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.status-dropdown').forEach(item => {
+            item.addEventListener('change', function() {
+                const form = this.closest('form');
+                const orderId = this.dataset.orderId;
+                const newStatus = this.value;
+
+                if (this.dataset.currentStatus === 'Cancelled' && newStatus !== 'Cancelled') {
+                    if (!confirm('Changing status from Cancelled will reduce stock. Continue?')) {
+                        this.value = this.dataset.currentStatus;
+                        return;
+                    }
+                }
+
+                form.submit();
+            });
+        });
+    </script>
+}
+
+@functions {
+    string GetStatusBadge(string status) => status switch
+    {
+        "Pending" => "warning",
+        "Processing" => "primary",
+        "Shipped" => "success",
+        "Delivered" => "dark",
+        "Cancelled" => "danger",
+        _ => "secondary"
+    };
+}

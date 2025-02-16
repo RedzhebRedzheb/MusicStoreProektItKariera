@@ -1,0 +1,101 @@
+﻿@using MusicStore.Models
+@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<div class="container">
+    <h1>Create Product</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <!-- Product Name -->
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Brand Input with Autocomplete -->
+                <div class="form-group">
+                    <label asp-for="BrandName" class="control-label"></label>
+                    <input asp-for="BrandName" class="form-control" list="brandList" />
+                    <datalist id="brandList">
+                        @foreach (var brand in ViewBag.ExistingBrands)
+                        {
+                            <option value="@brand"></option>
+                        }
+                    </datalist>
+                    <span asp-validation-for="BrandName" class="text-danger"></span>
+                </div>
+
+                <!-- Category Input with Autocomplete -->
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label"></label>
+                    <input asp-for="CategoryName" class="form-control" list="categoryList" />
+                    <datalist id="categoryList">
+                        @foreach (var category in ViewBag.ExistingCategories)
+                        {
+                            <option value="@category"></option>
+                        }
+                    </datalist>
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+
+                <!-- Supplier Dropdown -->
+                <div class="form-group">
+                    <label asp-for="SupplierId" class="control-label"></label>
+                    <select asp-for="SupplierId" class="form-control"
+                            asp-items="ViewBag.Suppliers">
+                        <option value="">-- Select Supplier --</option>
+                    </select>
+                    <span asp-validation-for="SupplierId" class="text-danger"></span>
+                </div>
+
+                <!-- Price -->
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <!-- Stock Quantity -->
+                <div class="form-group">
+                    <label asp-for="StockQuantity" class="control-label"></label>
+                    <input asp-for="StockQuantity" class="form-control" />
+                    <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                </div>
+
+                <!-- Description -->
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <!-- Image URL -->
+                <div class="form-group">
+                    <label asp-for="ImageUrl" class="control-label"></label>
+                    <input asp-for="ImageUrl" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

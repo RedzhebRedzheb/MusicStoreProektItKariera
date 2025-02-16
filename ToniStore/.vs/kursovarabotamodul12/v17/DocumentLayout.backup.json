@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\orders\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|c:\\users\\acer\\desktop\\kursovarabotamodul12\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C056C2B8-F581-4D77-A589-4148B5BC0F73}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Orders\\Cart.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Orders\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Orders\\Cart.cshtml",
+              "RelativeToolTip": "UI\\Views\\Orders\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:45:56.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:44:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAAAgwMoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:41:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\kursovarabotamodul12\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T23:44:22.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
